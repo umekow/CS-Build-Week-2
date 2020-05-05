@@ -4,7 +4,7 @@ class ListNode:
         self.next = next
 
     def __repr__(self):
-        return f'{self.val}'
+        return f"{self.val}"
 
 
 def merge_sorted(l1, l2):
@@ -59,7 +59,7 @@ def merge_sorted(l1, l2):
     return first_node
 
 
-#1-2-4 -1-3-4
+# 1-2-4 -1-3-4
 l1 = ListNode(5)
 # l1.next = ListNode(6)
 # l1.next.next = ListNode(9)

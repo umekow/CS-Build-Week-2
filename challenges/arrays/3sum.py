@@ -1,4 +1,4 @@
-'''
+"""
 first solution using hashtables
 
 #dictionary to store differences
@@ -71,7 +71,7 @@ def threeNumberSum(array, targetSum):
 				#left += 1
 
 	
-'''
+"""
 
 
 def threeSum(nums, target):

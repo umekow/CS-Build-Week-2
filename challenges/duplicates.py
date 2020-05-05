@@ -1,6 +1,6 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        '''
+        """
         U: find out if an array has any duplicate values
         if there is at least one duplicate value return true
         means we do not have to iterate through the entire array
@@ -22,7 +22,7 @@ class Solution:
 
             if key does exist, return true
 
-        '''
+        """
 
         nums_dict = dict()
 

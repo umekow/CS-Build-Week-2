@@ -4,7 +4,7 @@ class ListNode:
         self.next = None
 
     def __repr__(self):
-        return f'{self.next}'
+        return f"{self.next}"
 
 
 la = ListNode(2)
@@ -59,7 +59,7 @@ def addition(l1, l2):
         node1 = node1.next
         node2 = node2.next
 
-        print('loop')
+        print("loop")
 
         # return the first node we created
     return first_node
