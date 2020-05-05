@@ -68,5 +68,4 @@ l2 = ListNode(10)
 # l2.next = ListNode(11)
 # l2.next.next = ListNode(12)
 
-
 print(merge_sorted(l1, l2))
