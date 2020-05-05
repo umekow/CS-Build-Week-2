@@ -77,21 +77,22 @@ def threeNumberSum(array, targetSum):
 def threeSum(nums, target):
     nums.sort()
     triplets = []
-        
-    for i in range(len(nums) - 2): 
-            left = i + 1
-            right = len(nums) - 1
-            current_sum = nums[i] + nums[left] + nums[right]
-            while right > left: 
-                if current_sum == 0: 
-                    left += 1
-                    right -= 1
-                    triplets.append([nums[i], nums[left], nums[right]])
-                elif current_sum > 0: 
-                    right -= 1
-                elif current_sum < 0: 
-                    left += 1
-                    
+
+    for i in range(len(nums) - 2):
+        left = i + 1
+        right = len(nums) - 1
+        current_sum = nums[i] + nums[left] + nums[right]
+        while right > left:
+            if current_sum == 0:
+                left += 1
+                right -= 1
+                triplets.append([nums[i], nums[left], nums[right]])
+            elif current_sum > 0:
+                right -= 1
+            elif current_sum < 0:
+                left += 1
+
     return triplets
+
 
 print(threeSum([-1, 0, 1, 2, -1, -4]))
